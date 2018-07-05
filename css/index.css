@@ -225,15 +225,34 @@ footer nav a {
 
 @media(max-width: 768px) {
 
+/* Header */
+
 /* Change Header Layout */
 header {
     flex-flow: column wrap;
     margin-top: 20px;
 }
+
 header .logo {
     align-self: center;
     margin-bottom: 30px;
 }
+
+/* Top Content */
+
+/* Jumbotron */
+
+.top-content .jumbotron {
+    margin: 33px 0 10px 0;
+}
+
+.top-content .text-container {
+    margin-top: 15px;
+    font-size: 1.6rem;
+}
+
+
+/* Middle Content */
 
 /* Change Color of Boxes */
 .middle-content .boxes .box1 {
@@ -253,23 +272,6 @@ header .logo {
 }
 
 /* Change Text-Containers to Display Differently */
-
-.top-content{
-    justify-content: space-around;
-}
-
-h2 {
-    font-size: 1.6rem;
-}
-
-p {
-    font-size: 1.2rem;
-}
-
-.top-content .text-container {
-    padding: 0;
-    width: 35%;
-}
 
 .bottom-content {
     justify-content: space-between;
