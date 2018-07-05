@@ -87,7 +87,9 @@ p {
 
 .middle-content {
     margin-bottom: 20px;
+    padding-top: 20px;
     border-bottom: 1px dashed black;
+    border-top: 1px dashed black;
 }
 
 .middle-content h2 {
@@ -193,19 +195,25 @@ header .logo {
     margin-left: 1%;
 }
 
+/* Middle Content */
+
 /* Change Box Colors for 1000px */
 .middle-content .boxes .box2 {
     background: forestgreen;
 }
+
 .middle-content .boxes .box4 {
     background: darkorchid;
 }
+
 .middle-content .boxes .box6 {
     background: hotpink;
 }
+
 .middle-content .boxes .box8 {
     background: indigo;
 }
+
 .middle-content .boxes .box10 {
     background: lawngreen;
 }
