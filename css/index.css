@@ -251,7 +251,6 @@ header .logo {
     font-size: 1.6rem;
 }
 
-
 /* Middle Content */
 
 /* Change Color of Boxes */
@@ -271,16 +270,7 @@ header .logo {
     background: crimson;
 }
 
-/* Change Text-Containers to Display Differently */
-
-.bottom-content {
-    justify-content: space-between;
-}
-
-.bottom-content .text-container {
-    width: 25%;
-}
-}
+} /* End of Media Query for 768px */
 
 /* Media Query for 400px */
 
