@@ -151,14 +151,14 @@ header .logo {
 }
 
 .middle-content .boxes .box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 12.5%;
     height: 100px;
     background: black;
     margin: 20px 2.5%;
     color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     font-size: 1.6rem;
 }
 
@@ -307,7 +307,71 @@ header nav a {
 
 .top-content .jumbotron {
     margin: 0 auto;
-}    
+}
+
+.top-content .flex-text-container {
+    flex-direction: column;
+}
+
+.top-content .text-container {
+    width: 90%;
+    margin: 20px 0 0 4%;
+}
+
+.top-content .past {
+    margin: 0 0 0 5%;
+}
+
+/* Middle Content */
+.middle-content .boxes {
+    margin: 0 auto;   
+}
+
+.middle-content .boxes .box {
+    width: 26%;
+}
+
+/* Change the order of the boxes */
+.middle-content .boxes .box1 {
+    order: 3;
+}
+
+.middle-content .boxes .box2 {
+    order: 2;
+}
+
+.middle-content .boxes .box3 {
+    order: 1;
+}
+
+.middle-content .boxes .box4 {
+    order: 6;
+}
+
+.middle-content .boxes .box5 {
+    order: 5;
+}
+
+.middle-content .boxes .box6 {
+    order: 4;
+}
+
+.middle-content .boxes .box7 {
+    order: 9;
+}
+
+.middle-content .boxes .box8 {
+    order: 8;
+}
+
+.middle-content .boxes .box9 {
+    order: 7;
+}
+
+.middle-content .boxes .box10 {
+    display: none;
+}
+
 
 }
 
