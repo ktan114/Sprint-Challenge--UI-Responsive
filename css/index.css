@@ -79,76 +79,6 @@ p {
     justify-content: center;
 }
 
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
-}
-
-.middle-content {
-    margin-bottom: 20px;
-    padding-top: 20px;
-    border-bottom: 1px dashed black;
-    border-top: 1px dashed black;
-}
-
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
-}
-
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.6rem;
-}
-
-.bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
-}
-
-.bottom-content .text-container {
-    padding-right: 4%;
-    font-size: 1.6rem;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
-}
-
-footer {
-    width: 100%;
-    background: black;
-}
-
-footer nav {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 1.4rem;
-}
-
-footer nav a {
-    color: white;
-    text-decoration: none;
-}
-
 /* 800px */
 
 /* Header */
@@ -189,6 +119,9 @@ header .logo {
 }
 
 .top-content .text-container {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
     font-size: 1.6rem;
     margin-left: 2%;
 }
@@ -198,6 +131,36 @@ header .logo {
 }
 
 /* Middle Content */
+
+.middle-content {
+    margin-bottom: 20px;
+    padding-top: 20px;
+    border-bottom: 1px dashed black;
+    border-top: 1px dashed black;
+}
+
+.middle-content h2 {
+    padding: 0 2%;
+    margin-bottom: 0;
+}
+
+.middle-content .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.middle-content .boxes .box {
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+}
 
 /* Change Box Colors for 1000px */
 .middle-content .boxes .box2 {
@@ -218,6 +181,44 @@ header .logo {
 
 .middle-content .boxes .box10 {
     background: lawngreen;
+}
+
+/* Bottom Content */
+
+.bottom-content {
+    display: flex;
+    margin: 0 2% 20px;
+    justify-content: space-around;
+}
+
+.bottom-content .text-container {
+    padding-right: 4%;
+    font-size: 1.6rem;
+}
+
+.bottom-content .text-container:last-child {
+    padding-right: 0;
+}
+
+/* Footer */
+
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 1.4rem;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
 }
 
 /* Media Query for 768px */
