@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+t/* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -184,7 +184,6 @@ header nav {
     width: 100%;
     display: flex;
     justify-content: space-around;
-
 }
 
 /* Changes color of a tags */
@@ -238,12 +237,15 @@ header .logo {
 .top-content{
     justify-content: space-around;
 }
+
 h2 {
     font-size: 1.6rem;
 }
+
 p {
     font-size: 1.2rem;
 }
+
 .top-content .text-container {
     padding: 0;
     width: 35%;
@@ -252,6 +254,7 @@ p {
 .bottom-content {
     justify-content: space-between;
 }
+
 .bottom-content .text-container {
     width: 25%;
 }
