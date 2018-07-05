@@ -328,7 +328,7 @@ header nav a {
 }
 
 .middle-content .boxes .box {
-    width: 26%;
+    width: 25%;
 }
 
 /* Change the order of the boxes */
@@ -372,6 +372,28 @@ header nav a {
     display: none;
 }
 
+/* Bottom Content */
+
+.bottom-content {
+    flex-flow: column;
+    margin-left: 2.5%;
+}
+
+.bottom-content .text-container {
+    padding-bottom: 20px;
+}
+
+/* Footer */
+
+footer nav {
+    width: 100%;
+    justify-content: center;
+}
+
+footer nav a {
+    margin-top: 1px;
+    margin-right: 23px;
+}
 
 }
 
